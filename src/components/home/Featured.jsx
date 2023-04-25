@@ -1,7 +1,7 @@
 
 
 import useGetDataType from '../../hooks/useGetDataType';
-import FeaturedCard from '../cards/FeaturedCard';
+import FeaturedCard from '../cards/Featuredcard';
 
 const Featured = () => {
   const data = useGetDataType();
