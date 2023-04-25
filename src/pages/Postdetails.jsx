@@ -3,15 +3,15 @@
 import { useContext } from 'react';
 import Header from '../components/header/Header';
 import Header2 from '../components/header/Header2';
-import ProductBanner from '../components/productpage/ProductBanner';
+import ProductBanner from '../components/productPage/ProductBanner';
 import { useParams } from 'react-router-dom';
 import { AiFillStar } from 'react-icons/ai';
 import facebook from '../assets/facebook.png';
 import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';
 import { AiOutlineHeart } from 'react-icons/ai';
-import Description from '../components/productpage/Description';
-import Related from '../components/productpage/Related';
+import Description from '../components/productPage/Description';
+import Related from '../components/productPage/Related';
 import Footer from '../components/footer/Footer';
 import com from '../assets/com.png';
 import NoMatch from './NoMatch';
