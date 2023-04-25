@@ -1,6 +1,6 @@
 /** @format */
 
-import React from 'react';
+
 import Light from '../../assets/light.png';
 import Dot from '../../assets/dot.png';
 import sofa from '../../assets/sofa.png';

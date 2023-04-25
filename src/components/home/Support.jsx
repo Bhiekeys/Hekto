@@ -1,6 +1,6 @@
 /** @format */
 
-import React from 'react';
+
 import supportData from '../../mocks/support-data';
 
 const Support = () => {

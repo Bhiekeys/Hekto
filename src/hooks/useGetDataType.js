@@ -17,7 +17,7 @@ const useGetDataType = (dataType = 'featured') => {
         })
       );
     }
-  }, [products]);
+  }, [products, dataType]);
   return data;
 };
 

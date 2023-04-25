@@ -1,18 +1,18 @@
 /** @format */
 
 import { useContext } from 'react';
-import Header from '../components/Header/Header';
-import Header2 from '../components/Header/Header2';
-import ProductBanner from '../components/Productpage/ProductBanner';
+import Header from '../components/header/Header';
+import Header2 from '../components/header/Header2';
+import ProductBanner from '../components/productpage/ProductBanner';
 import { useParams } from 'react-router-dom';
 import { AiFillStar } from 'react-icons/ai';
 import facebook from '../assets/facebook.png';
 import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';
 import { AiOutlineHeart } from 'react-icons/ai';
-import Description from '../components/Productpage/Description';
-import Related from '../components/Productpage/Related';
-import Footer from '../components/Footer/Footer';
+import Description from '../components/productpage/Description';
+import Related from '../components/productpage/Related';
+import Footer from '../components/footer/Footer';
 import com from '../assets/com.png';
 import NoMatch from './NoMatch';
 import { CartContext } from '../store/cartContext';

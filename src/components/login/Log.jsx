@@ -1,11 +1,9 @@
 /** @format */
 
-import React from 'react';
 import com from '../../assets/com.png';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import { useNavigate } from 'react-router-dom';
-
 
 const Log = () => {
   const LoginSchema = Yup.object().shape({
@@ -26,8 +24,8 @@ const Log = () => {
             password: '',
           }}
           validationSchema={LoginSchema}
-          onSubmit={(values) => {
-            window.localStorage.setItem("Login" ,true)
+          onSubmit={() => {
+            window.localStorage.setItem('Login', true);
             navigate('/');
           }}>
           {({ errors, touched }) => (

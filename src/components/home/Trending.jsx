@@ -1,6 +1,5 @@
 /** @format */
 
-import React from 'react';
 import time from '../../assets/time.png';
 import wood from '../../assets/wood.png';
 import { Link } from 'react-router-dom';

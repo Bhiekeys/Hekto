@@ -1,6 +1,6 @@
 /** @format */
 
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import useGetDataType from '../../hooks/useGetDataType';
 const Categories = () => {

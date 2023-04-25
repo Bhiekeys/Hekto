@@ -1,6 +1,5 @@
 /** @format */
 
-import React from 'react';
 import Hekto from '../../assets/Hekto.png';
 import facebook from '../../assets/facebook.png';
 import twitter from '../../assets/twitter.png';

@@ -1,8 +1,7 @@
 /** @format */
 
-import React from 'react';
-import Header from '../components/Header/Header';
-import Header2 from '../components/Header/Header2';
+import Header from '../components/header/Header';
+import Header2 from '../components/header/Header2';
 const Shop = () => {
   return (
     <>

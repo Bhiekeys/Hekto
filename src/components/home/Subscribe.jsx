@@ -1,6 +1,5 @@
 /** @format */
 
-import React from 'react';
 import rect from '../../assets/rect.png';
 import com from '../../assets/com.png';
 const Subscribe = () => {

@@ -1,8 +1,5 @@
 /** @format */
 
-import React from 'react';
-import Data from '../../mocks/product-data';
-import { useState, useEffect } from 'react';
 import { AiFillStar } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import useGetDataType from '../../hooks/useGetDataType';

@@ -1,6 +1,6 @@
 /** @format */
 
-import React from 'react';
+
 import clock from '../../assets/clock.png';
 import completed from '../../assets/completed.png';
 import checklist from '../../assets/checklist.png';

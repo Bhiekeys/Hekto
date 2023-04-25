@@ -1,6 +1,5 @@
 /** @format */
 
-import React from 'react';
 import { useContext } from 'react';
 import { CartContext } from '../../store/cartContext';
 import CartCal from './CartCal';

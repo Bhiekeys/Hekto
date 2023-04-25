@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /** @format */
 
 import { createContext, useState, useEffect } from 'react';
@@ -18,7 +19,7 @@ const CartProvider = ({ children }) => {
     localStorage.setItem('products', JSON.stringify(products));
     localStorage.setItem('cartItems', JSON.stringify(cartItems));
     localStorage.setItem('totalPrice', JSON.stringify(totalPrice));
-  }, [products, cachedCartItems, totalPrice]);
+  }, [products, cartItems, totalPrice]);
 
   const handleAddToCart = (item) => {
     let selectedProduct = products.find((product) => product.id === item.id);

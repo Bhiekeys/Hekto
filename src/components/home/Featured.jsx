@@ -1,5 +1,5 @@
 
-import React from 'react';
+
 import useGetDataType from '../../hooks/useGetDataType';
 import FeaturedCard from '../cards/FeaturedCard';
 

@@ -1,6 +1,6 @@
 /** @format */
 
-import React from 'react';
+
 import { FcCheckmark } from 'react-icons/fc';
 import shop from '../../assets/shop.png';
 const Discount = () => {

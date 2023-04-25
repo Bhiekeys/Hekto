@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /** @format */
 
 import { useContext } from 'react';
@@ -9,7 +10,7 @@ import { CartContext } from '../../store/cartContext';
 
 const FeaturedCard = ({ item = {} }) => {
   const { handleAddToCart } = useContext(CartContext);
-  const { id, image, productName, code, colors, price, quantity } = item;
+  const { id, image, productName,  colors, price, quantity } = item;
   const isAddedToCart = quantity > 0;
 
   const onCartClick = () => {

@@ -1,6 +1,5 @@
 /** @format */
 import com from '../../assets/com.png';
-import React from 'react';
 import not from '../../assets/noMatch.png';
 import { Link } from 'react-router-dom';
 const NotFound = () => {

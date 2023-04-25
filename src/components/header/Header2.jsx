@@ -1,6 +1,6 @@
 /** @format */
 
-import React from 'react';
+
 import Hekto from '../../assets/Hekto.png';
 import { FiSearch, FiUser } from 'react-icons/fi';
 import { AiOutlineMenu, AiOutlineHeart } from 'react-icons/ai';
