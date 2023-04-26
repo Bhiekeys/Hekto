@@ -1,4 +1,3 @@
-/** @format */
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
@@ -13,6 +12,7 @@ import Postdetails from './pages/Postdetails';
 import Cart from './pages/Cart';
 import Order from './pages/Order';
 import NoMatch from './pages/NoMatch';
+import { Navigate } from 'react-router-dom';
 
 const App = () => {
   return (
@@ -29,7 +29,8 @@ const App = () => {
         <Route path="/postdetails/:id" element={<Postdetails />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/order" element={<Order />} />
-        <Route path="*" element={<NoMatch />} />
+        <Route path="/noMatch" element={<NoMatch />} />
+        <Route path="*" element={<Navigate to="/noMatch" />} />
       </Routes>
     </BrowserRouter>
   );
