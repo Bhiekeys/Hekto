@@ -30,7 +30,7 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/order" element={<Order />} />
         <Route path="/noMatch" element={<NoMatch />} />
-        <Route path="*" element={<Navigate to="/noMatch" />} />
+        <Route path="/*" element={<Navigate to="/noMatch" />} />
       </Routes>
     </BrowserRouter>
   );
