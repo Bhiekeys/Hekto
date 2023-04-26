@@ -48,19 +48,21 @@ const Cartt = () => {
                         ${price}
                       </td>
                       <td className="pb-3 px-5 sm:px-0 ">
-                        <button
-                          onClick={() => handleDecreaseQuantity(product)}
-                          className=" bg-[#BEBFC2] text-[12px] px-2">
-                          -
-                        </button>
-                        <span className="sm:px-2 bg-[#BEBFC2] text-[12px] py-[1.5px] ">
-                          {quantity}
-                        </span>
-                        <button
-                          onClick={() => handleIncreaseQuantity(product)}
-                          className=" bg-[#BEBFC2] text-[12px] px-2">
-                          +
-                        </button>
+                        <div className='bg-slate-200 w-fit'>
+                          <button
+                            onClick={() => handleDecreaseQuantity(product)}
+                            className="text-[#15245E]  text-[13px] px-2">
+                            -
+                          </button>
+                          <span className="sm:px-2 text-[#15245E] text-[13px] py-[1.5px] ">
+                            {quantity}
+                          </span>
+                          <button
+                            onClick={() => handleIncreaseQuantity(product)}
+                            className=" text-[13px] text-[#15245E] px-2">
+                            +
+                          </button>
+                        </div>
                       </td>
                       <td className="pb-3 text-[14px] text-[#15245E]">
                         ${price * quantity}

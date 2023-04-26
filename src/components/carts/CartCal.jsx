@@ -2,12 +2,13 @@
 
 import { useContext } from 'react';
 import { CartContext } from '../../store/cartContext';
-
+import { useNavigate } from 'react-router-dom';
 const CartCal = () => {
   const cart = useContext(CartContext);
+  const navigate = useNavigate()
   const Payment = () => {
     localStorage.clear();
-    location.href = '/order';
+   navigate('/order')
   }
   return (
     <div className="pt-[65px] grid justify-center p-0 ">
@@ -31,7 +32,6 @@ const CartCal = () => {
         </div>
         <button
           onClick={Payment}
-          type="submit"
           className="bg-[#19D16F] font-medium text-[14px] text-[#fff] py-2 rounded-sm w-full">
           Proceed To Checkout
         </button>
