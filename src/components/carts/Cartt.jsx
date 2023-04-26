@@ -21,9 +21,9 @@ const Cartt = () => {
             <table>
               <thead className="text-left md:text-[20px] text-[#1D3178]">
                 <tr className="">
-                  <th className="md:w-[250px] pb-5">Product</th>
-                  <th className="md:w-[120px] pb-5">price</th>
-                  <th className="md:w-[135px] px-5 sm:px-0 pb-5">Quantity</th>
+                  <th className="sm:w-[250px] pb-5">Product</th>
+                  <th className="sm:w-[120px] pb-5">price</th>
+                  <th className="sm:w-[135px] px-5 sm:px-0 pb-5">Quantity</th>
                   <th className=" pb-5">Total</th>
                 </tr>
               </thead>
@@ -47,13 +47,13 @@ const Cartt = () => {
                       <td className="pb-3 text-[#15245E] text-[14px]">
                         ${price}
                       </td>
-                      <td className="pb-3 px-5 sm:px-0">
+                      <td className="pb-3 px-5 sm:px-0 ">
                         <button
                           onClick={() => handleDecreaseQuantity(product)}
                           className=" bg-[#BEBFC2] text-[12px] px-2">
                           -
                         </button>
-                        <span className="sm:px-2 bg-[#BEBFC2] text-[12px] py-[1px] ">
+                        <span className="sm:px-2 bg-[#BEBFC2] text-[12px] py-[1.5px] ">
                           {quantity}
                         </span>
                         <button
